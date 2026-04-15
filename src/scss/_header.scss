@@ -1,7 +1,6 @@
 @use "variables" as var;
 
 .header {
-  position: relative;
   z-index: 1;
 
   // hamburger open styles
@@ -90,10 +89,12 @@
     background: var.$color-primary-teal;
 
     .header-box {
+      position: relative;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
+      padding-top: var.$p-md;
+      padding-bottom: var.$p-md;
     }
 
     .logo {
@@ -144,12 +145,12 @@
 
 .search-wrapper {
   position: relative;
-  width: 450px;
+  width: 28rem;
 }
 
 input {
   width: 100%;
-  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  padding: var.$p-sm var.$p-lg var.$p-sm var.$p-md;
   border-radius: 20px;
   border: none;
   background-color: var.$color-secondary-teal;
@@ -175,78 +176,68 @@ input {
   display: block;
 }
 
-.mini-cart {
-  position: relative;
-  top: 80px;
-  right: 20px;
-  background: white;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  width: 300px;
-  z-index: 100;
-}
-
 .hidden {
   display: none;
 }
 
-#mini-cart {
+.mini-cart {
   position: absolute;
   top: 100%;
-  right: 20px;
+  right: 0;
 
-  width: 360px;
-  background: white;
-  border-radius: 8px;
-  padding: 1rem;
+  width: min(22rem, 90vw);
+  background-color: var.$color-white;
+  border-radius: 0 0 var.$br-card var.$br-card;
+  padding: var.$p-md;
 
   font-size: var.$fs-body-sm;
 
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: var.$box-shadow-cart;
   z-index: 1000;
 }
 
-#mini-cart li {
+.mini-cart li {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  gap: 0.5rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  gap: var.$s-sm;
+  padding: var.$p-md 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#mini-cart li span:first-child {
+.mini-cart li span:first-child {
   flex: 1;
 }
 
-#mini-cart li button {
-  padding: 0.2rem 0.5rem;
-  border: 1px solid #ccc;
-  background: white;
+.mini-cart li button {
+  padding: var.$p-xs var.$p-sm;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: var.$color-white;
   cursor: pointer;
 }
 
-#mini-cart li span {
+.mini-cart li span {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: var.$s-xs;
 }
 
 .mini-cart__checkout-btn {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: var.$m-md;
 
-  padding: 0.75rem 1rem;
+  padding: 0.75rem var.$p-md;
 
   background-color: var.$color-accent-pink;
   color: var.$color-background-cream;
 
   border: none;
-  border-radius: 8px;
+  border-radius: var.$br-card;
 
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: var.$fs-body-sm;
+  font-weight: var.$fw-md;
+
   text-transform: uppercase;
   letter-spacing: 0.5px;
 
