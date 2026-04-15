@@ -1,5 +1,6 @@
 # Candy Avenue - Webshop Group Project
-_Thumnbnail to be added_
+<img width="1359" height="906" alt="landing-page" src="https://github.com/user-attachments/assets/a6cb9d8d-7678-4db9-b44c-9b2df9d0aace" />
+
 ## 📌 Overview
 Candy Avenue is a responsive candy webshop built as part of a JavaScript course, where we expanded into TypeScript to structured data and type safety.
 
@@ -96,7 +97,21 @@ A key part of the project was learning to:
 - Enhance accessibility
 
 ## 📸 Screenshots
-_To be added_
+### Landing
+<img width="1359" height="906" alt="landing-page" src="https://github.com/user-attachments/assets/15ae292a-9b27-47d5-9965-676df32aae6f" />
+
+### Products
+<img width="1359" height="906" alt="product-page" src="https://github.com/user-attachments/assets/92b3927c-44c6-4711-b5d0-b8b9d9205fa2" />
+
+### Product details
+<img width="1359" height="906" alt="product-details" src="https://github.com/user-attachments/assets/bcb13d26-a029-4db1-a4c2-fc6ee29dcf85" />
+
+### Checkout
+<img width="1361" height="907" alt="checkout-page-1" src="https://github.com/user-attachments/assets/0ac574b4-d7d1-4b1a-a845-91233c7ef732" />
+<img width="1359" height="906" alt="checkout-page-2" src="https://github.com/user-attachments/assets/eb2bf2ee-6733-4738-9fac-57563283ddfc" />
+
+### Order confirmation
+<img width="1361" height="907" alt="order-confirmation-page" src="https://github.com/user-attachments/assets/d3399c61-65aa-4572-aafb-9e4b30de16d6" />
 
 ## 📎 Project Context
 This project was developed as part of a JavaScript course, where we transitioned into TypeScript to deepen our understanding of typed data and scalable frontend architecture.
