@@ -1,6 +1,7 @@
 @use "variables" as var;
 
 .header {
+  position: relative;
   z-index: 1;
 
   // hamburger open styles
@@ -89,7 +90,6 @@
     background: var.$color-primary-teal;
 
     .header-box {
-      position: relative;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -183,7 +183,7 @@ input {
 .mini-cart {
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 20px;
 
   width: min(22rem, 90vw);
   background-color: var.$color-white;
